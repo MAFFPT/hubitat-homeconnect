@@ -17,7 +17,9 @@
  *  Author: Rangner Ferraz Guimaraes (rferrazguimaraes)
  *  Date: 2021-11-28
  *  Version: 1.0 - Initial commit
- */
+ *  Date: 2021-12-08
+ *  Version: 1.0.1 - Use of library
+*/
 
 import groovy.transform.Field
 import groovy.json.JsonSlurper
@@ -28,7 +30,7 @@ import groovy.json.JsonSlurper
 @Field List<String> LOG_LEVELS = ["error", "warn", "info", "debug", "trace"]
 @Field String DEFAULT_LOG_LEVEL = LOG_LEVELS[1]
 @Field static final Integer eventStreamDisconnectGracePeriod = 30
-def driverVer() { return "1.0" }
+def driverVer() { return "1.0.1" }
 
 metadata {
     definition(name: "Home Connect FridgeFreezer", namespace: "rferrazguimaraes", author: "Rangner Ferraz Guimaraes") {
