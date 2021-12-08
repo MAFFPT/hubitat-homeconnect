@@ -22,6 +22,8 @@
 import groovy.transform.Field
 import groovy.json.JsonSlurper
 
+#include rferrazguimaraes.HomeConnect
+
 @Field Utils = Utils_create();
 @Field List<String> LOG_LEVELS = ["error", "warn", "info", "debug", "trace"]
 @Field String DEFAULT_LOG_LEVEL = LOG_LEVELS[1]
