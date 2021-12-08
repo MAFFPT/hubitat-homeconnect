@@ -17,10 +17,14 @@
  *  Author: Rangner Ferraz Guimaraes (rferrazguimaraes)
  *  Date: 2021-11-28
  *  Version: 1.0 - Initial commit
+ *  Date: 2021-12-08
+ *  Version: 1.0.1 - Use of library
  */
 
 import groovy.transform.Field
 import groovy.json.JsonSlurper
+
+#include rferrazguimaraes.HomeConnect
 
 #include rferrazguimaraes.HomeConnect
 
